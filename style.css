@@ -1,0 +1,97 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+table{
+    width: 75%;
+    margin: 50px auto;
+    background: rgb(255, 255, 255);
+}
+
+h1{
+    text-align: center;
+    border-style: solid ;
+    border-color: rgb(27, 96, 160);
+    background-color: rgb(27, 96, 160);
+    color: white;
+
+}
+
+
+table.list{
+    text-align: center;
+    width: 100%;
+    
+    padding-bottom: 250px;
+}
+
+td{
+    border: 2px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+
+input[type="text"],input[type="number"]{
+    width:50%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+.gender{
+    width: 30%;
+}
+
+
+input[type="submit"]{
+    background: rgb(88, 177, 83);
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="reset"]{
+    background: rgb(179, 12, 12);
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #0f6b1e;
+}
+
+input[type="reset"]:hover{
+    background: #800909;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}

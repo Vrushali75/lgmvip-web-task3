@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration Form</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <h1>-----Student Enrollment Form-----</h1>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <h2>Enter Student details</h2>
+                        <label for="name1">Name</label>
+                        <input type="text" name="name1" id="name1">
+                    </div>
+                    <div>
+                        <label for="email1">Email</label>
+                        <input type="text" name="email1" id="email1">
+                    </div>
+                    <div>
+                        <label for="skills1">Skills</label>
+                        <input type="text" name="skills1" id="skills1">
+                    </div>
+                    <div class="gender">
+                        <label for="gender">Gender (Male/Female)</label>
+                        <input type="text" name="gender" id="gender">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Enroll Student">
+                        <input type="reset" value="Clear">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Skills</th>
+                                <th>Gender</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
